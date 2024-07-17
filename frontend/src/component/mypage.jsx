@@ -93,7 +93,7 @@ function Mypage() {
           value={newPassword}
           onChange={(e) => setNewPassword(e.target.value)}
         />
-        <button className="Change-button" onClick={handleChangePassword}>비밀번호 바꾸기</button>
+        <button className="Change-button" onClick={handleChangePassword}>Change Password</button>
         <span className="out" onClick={handleLogout}>Logout</span>
       </div>
     </div>
