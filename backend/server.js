@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 const port = 3011;
 const saltRounds = 10;
-const secretKey = 'your_secret_key_here'; // 여기에 비밀 키를 설정하세요
+const secretKey = 'test1234'; 
 
 // 미들웨어 설정
 app.use(cors());
